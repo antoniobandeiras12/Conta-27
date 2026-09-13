@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canais de Atendimento e Transparência Fiscal | Folha Financeira Digital</title>
+  <meta name="description" content="Entre em contato com a equipe editorial do Folha Financeira Digital. Informações corporativas, dados fiscais, ouvidoria e canal oficial do Encarregado de Dados (DPO/LGPD).">
+  <link rel="canonical" href="https://folhafinanceiradigital.site/contato.html">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Canais de Atendimento e Transparência Fiscal | Folha Financeira Digital">
+  <meta property="og:description" content="Canais oficiais de contato com o Folha Financeira Digital, ouvidoria editorial e solicitação de direitos LGPD junto ao DPO.">
+  <meta property="og:url" content="https://folhafinanceiradigital.site/contato.html">
+  <meta property="og:site_name" content="Folha Financeira Digital">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Bar / Ticker de Cotações -->
+  <aside class="market-top-bar" aria-label="Indicadores de Mercado Financeiro">
+    <div class="top-bar-inner">
+      <div class="ticker-feed">
+        <div class="ticker-pill">
+          <span class="ticker-label">SELIC:</span>
+          <span class="ticker-val">10,50% a.a.</span>
+        </div>
+        <div class="ticker-pill">
+          <span class="ticker-label">IPCA:</span>
+          <span class="ticker-val">4,12%</span>
+        </div>
+        <div class="ticker-pill">
+          <span class="ticker-label">CDI:</span>
+          <span class="ticker-val">10,40%</span>
+        </div>
+        <div class="ticker-pill">
+          <span class="ticker-label">DÓLAR COMERCIAL:</span>
+          <span class="ticker-val">R$ 5,42</span>
+        </div>
+        <div class="ticker-pill">
+          <span class="ticker-label">IBOVESPA:</span>
+          <span class="ticker-val ticker-green">134.210 pts (+0,68%)</span>
+        </div>
+      </div>
+
+      <div class="top-accessibility-controls">
+        <span style="font-size: 0.72rem; color: #cbd5e1; margin-right: 0.5rem;">12 de Setembro de 2026</span>
+        <button class="btn-acc" id="btnFontPlus" title="Aumentar Tamanho da Fonte">A+</button>
+        <button class="btn-acc" id="btnFontMinus" title="Diminuir Tamanho da Fonte">A-</button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Header Principal com Navegação -->
+  <header class="main-header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="brand-logo" aria-label="Página Inicial Folha Financeira Digital">
+          <div class="brand-logo-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+              <polyline points="2 17 12 22 22 17"></polyline>
+              <polyline points="2 12 12 17 22 12"></polyline>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-title">FOLHA FINANCEIRA DIGITAL</span>
+            <span class="brand-subtitle">Inteligência Financeira</span>
+          </div>
+        </a>
+
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Abrir Menu de Navegação" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+
+        <nav class="main-nav" id="mainNav" role="navigation" aria-label="Navegação Primária">
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="index.html#artigo">Dossiê Especial</a></li>
+            <li><a href="index.html#calculadora">Calculadora</a></li>
+            <li><a href="sobre.html">Sobre Nós</a></li>
+            <li><a href="contato.html" class="btn-nav-contact active">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section-spacing">
+    <nav class="breadcrumb-nav" aria-label="Trilha de navegação">
+      <a href="index.html">Início</a> <span>/</span>
+      <span aria-current="page">Atendimento &amp; Contato</span>
+    </nav>
+
+    <div class="content-grid">
+      
+      <!-- Coluna Esquerda: Formulário de Contato -->
+      <div>
+        <div class="form-card">
+          <h2>Fale com a Redação Institucional</h2>
+          <p style="font-size: 0.9375rem; color: var(--color-slate-muted); margin-bottom: 1.5rem;">
+            Preencha os campos abaixo para esclarecer dúvidas sobre os artigos, solicitar correções técnicas ou direcionar solicitações à nossa equipe editorial.
+          </p>
+
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="nomeCompleto">Nome Completo *</label>
+              <input type="text" id="nomeCompleto" class="form-control" placeholder="Ex: Maria Silva Oliveira" required>
+            </div>
+
+            <div class="form-group">
+              <label for="emailContato">E-mail para Retorno *</label>
+              <input type="email" id="emailContato" class="form-control" placeholder="seuemail@provedor.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="assuntoContato">Assunto Principal *</label>
+              <select id="assuntoContato" class="form-control" required>
+                <option value="">Selecione o motivo do contato...</option>
+                <option value="editorial">Dúvida ou Sugestão Editorial</option>
+                <option value="correcao">Correção de Conteúdo ou Dados Técnicos</option>
+                <option value="dpo">Solicitação de Direitos do Titular (LGPD)</option>
+                <option value="imprensa">Contato Institucional / Imprensa</option>
+                <option value="outros">Outros Esclarecimentos</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="mensagemCorpo">Mensagem Detalhada *</label>
+              <textarea id="mensagemCorpo" class="form-control" placeholder="Descreva sua solicitação de forma objetiva..." required></textarea>
+            </div>
+
+            <div class="form-group">
+              <label class="form-checkbox-label">
+                <input type="checkbox" id="consentimentoLGPD" required>
+                <span>Declaro que li e concordo com a <a href="privacidade.html" target="_blank">Política de Privacidade</a> do portal para tratamento exclusivo desta mensagem nos termos da LGPD.</span>
+              </label>
+            </div>
+
+            <button type="submit" class="btn-primary" id="btnSubmitContact">Enviar Mensagem Institucional</button>
+
+            <div class="form-feedback success" id="contactSuccessAlert">
+              <strong>Mensagem enviada com sucesso!</strong><br>
+              Recebemos seu protocolo interno. Nossa equipe editorial ou o Encarregado de Dados retornará em até 48 horas úteis no e-mail informado.
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Coluna Direita: Dados Fiscais e Canal DPO -->
+      <aside role="complementary">
+        
+        <!-- Quadro de Informações Corporativas -->
+        <div class="sidebar-widget">
+          <div class="widget-title">
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-2a1 1 0 00-1-1H9a1 1 0 00-1 1v2a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm4 0h2v2h-2V5zm-4 4h2v2H7V9zm4 0h2v2h-2V9zm-4 4h2v2H7v-2zm4 0h2v2h-2v-2z" clip-rule="evenodd"></path>
+            </svg>
+            Quadro Societário &amp; Fiscal
+          </div>
+          <div class="footer-info-block" style="color: var(--color-slate);">
+            <p><strong>Razão Social:</strong><br>Ianderu Tecnologia da Informacao Ltda.</p>
+            <p><strong>CNPJ:</strong> 61.893.741/0001-33<br><strong>Inscrição Estadual:</strong> Isento</p>
+            <p><strong>Sede Comercial:</strong><br>Q QMS 26, S/N, Lote 14 - Setor de Mansões de Sobradinho, Brasília - DF, CEP 73.080-620</p>
+            <p><strong>Telefone / WhatsApp Comercial:</strong><br><a href="tel:+556199225491" style="font-weight: 600; color: inherit;">(61) 9922-5491</a></p>
+            <p><strong>Horário de Expediente:</strong><br>Segunda a Sexta-feira, das 09h00 às 18h00 (Horário de Brasília)</p>
+            <p><strong>Prazo Médio de Resposta:</strong><br>De 24 a 48 horas úteis</p>
+          </div>
+        </div>
+
+        <!-- Canal Exclusivo do DPO (LGPD) -->
+        <div class="sidebar-widget" id="canal-dpo" style="border-left: 4px solid var(--color-accent);">
+          <div class="widget-title">
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35-.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+            </svg>
+            Privacidade &amp; Encarregado (DPO)
+          </div>
+          <p style="font-size: 0.875rem; color: var(--color-text-body);">
+            Para solicitações fundadas nos direitos do titular (Artigo 18 da Lei nº 13.709/2018 - LGPD), tais como exclusão de registros de contato ou revogação de consentimento:
+          </p>
+          <div class="callout-box" style="margin: 1rem 0; padding: 0.75rem 1rem;">
+            <p style="font-size: 0.8125rem; margin-bottom: 0.25rem;"><strong>Encarregado de Dados (DPO):</strong></p>
+            <p style="font-size: 0.8125rem; color: var(--color-slate); margin-bottom: 0.5rem;">Dr. Roberto Siqueira (CIPP/E)</p>
+            <p style="font-size: 0.8125rem; margin-bottom: 0;"><strong>E-mail Exclusivo:</strong><br><a href="mailto:contato@folhafinanceiradigital.site" style="font-weight: 700;">contato@folhafinanceiradigital.site</a></p>
+          </div>
+          <p style="font-size: 0.75rem; color: var(--color-slate-muted); margin-bottom: 0;">
+            As requisições formais são processadas no prazo legal estabelecido pela Autoridade Nacional de Proteção de Dados (ANPD).
+          </p>
+        </div>
+
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- Rodapé Institucional Corporativo -->
+  <footer class="main-footer" role="contentinfo">
+    <div class="container">
+      
+      <div class="footer-disclaimer">
+        <strong>AVISO INSTITUCIONAL E ISENÇÃO DE RESPONSABILIDADE:</strong><br>
+        O <strong>Folha Financeira Digital</strong> é uma publicação de cunho estritamente editorial, jornalístico e pedagógico mantida pela <em>Ianderu Tecnologia da Informacao Ltda.</em> Não somos instituição bancária, financeira ou de crédito. Não concedemos empréstimos, não operamos limites de crédito, não intermediamos cobranças e não atuamos como correspondentes bancários. O portal não possui qualquer vínculo, filiação, homologação ou convênio com órgãos governamentais, autarquias públicas ou programas estatais. As informações disponibilizadas têm propósito pedagógico e de livre consulta pública.
+      </div>
+
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 1rem;">
+            <div class="brand-logo-icon" style="background: #ffffff; color: var(--color-primary);">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-title" style="color: #ffffff;">FOLHA FINANCEIRA DIGITAL</span>
+              <span class="brand-subtitle" style="color: #94a3b8;">Inteligência Financeira</span>
+            </div>
+          </div>
+          <div class="footer-info-block">
+            <p><strong>Razão Social:</strong> Ianderu Tecnologia da Informacao Ltda.</p>
+            <p><strong>CNPJ:</strong> 61.893.741/0001-33 | <strong>IE:</strong> Isento</p>
+            <p><strong>Endereço Comercial:</strong> Q QMS 26, S/N, Lote 14 - Setor de Mansões de Sobradinho, Brasília - DF, CEP 73.080-620</p>
+            <p><strong>Telefone Institucional:</strong> (61) 9922-5491</p>
+            <p><strong>Horário de Funcionamento:</strong> Segunda a Sexta, das 09h00 às 18h00</p>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="index.html#artigo">Dossiê Especial</a></li>
+            <li><a href="index.html#calculadora">Calculadoras</a></li>
+            <li><a href="sobre.html">Quem Somos</a></li>
+            <li><a href="contato.html">Fale Conosco</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Conformidade Legal</h4>
+          <ul class="footer-links">
+            <li><a href="termos.html">Termos de Uso</a></li>
+            <li><a href="privacidade.html">Política de Privacidade (LGPD)</a></li>
+            <li><a href="cookies.html">Gestão de Cookies</a></li>
+            <li><a href="contato.html#canal-dpo">Encarregado de Dados (DPO)</a></li>
+            <li><a href="sitemap.xml">Mapa do Site (XML)</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Atendimento Editorial</h4>
+          <div class="footer-info-block">
+            <p>Dúvidas, sugestões e correções editoriais:</p>
+            <p><a href="mailto:contato@folhafinanceiradigital.site" style="color: var(--color-accent); font-weight: 600;">contato@folhafinanceiradigital.site</a></p>
+            <p style="margin-top: 0.75rem;">Canal Oficial de Privacidade &amp; LGPD:</p>
+            <p><a href="mailto:contato@folhafinanceiradigital.site" style="color: #cbd5e1;">contato@folhafinanceiradigital.site</a></p>
+            <p style="margin-top: 0.75rem; font-size: 0.75rem; color: #64748b;">Tempo médio de retorno: 24 a 48 horas úteis.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Folha Financeira Digital / Ianderu Tecnologia da Informacao Ltda. Todos os direitos reservados.
+        </div>
+        <div>
+          Conforme Lei Geral de Proteção de Dados (Lei nº 13.709/2018) e Marco Civil da Internet (Lei nº 12.965/2014).
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Script Menu Mobile & Validação do Formulário -->
+  <script>
+    (function () {
+      "use strict";
+
+      const navToggle = document.getElementById("mobileNavToggle");
+      const mainNav = document.getElementById("mainNav");
+      if (navToggle && mainNav) {
+        navToggle.addEventListener("click", function () {
+          const isOpen = mainNav.classList.toggle("open");
+          navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        });
+      }
+
+      const btnPlus = document.getElementById("btnFontPlus");
+      const btnMinus = document.getElementById("btnFontMinus");
+      let fontStage = 0;
+      if (btnPlus) {
+        btnPlus.addEventListener("click", function () {
+          if (fontStage === 0) { document.body.classList.add("font-lg"); fontStage = 1; }
+          else if (fontStage === 1) { document.body.classList.remove("font-lg"); document.body.classList.add("font-xl"); fontStage = 2; }
+        });
+      }
+      if (btnMinus) {
+        btnMinus.addEventListener("click", function () {
+          if (fontStage === 2) { document.body.classList.remove("font-xl"); document.body.classList.add("font-lg"); fontStage = 1; }
+          else if (fontStage === 1) { document.body.classList.remove("font-lg"); fontStage = 0; }
+        });
+      }
+
+      const form = document.getElementById("contactForm");
+      const alertSuccess = document.getElementById("contactSuccessAlert");
+      const btnSubmit = document.getElementById("btnSubmitContact");
+
+      if (form) {
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          const nome = document.getElementById("nomeCompleto").value.trim();
+          const email = document.getElementById("emailContato").value.trim();
+          const assunto = document.getElementById("assuntoContato").value;
+          const mensagem = document.getElementById("mensagemCorpo").value.trim();
+          const consent = document.getElementById("consentimentoLGPD").checked;
+
+          if (!nome || !email || !assunto || !mensagem) {
+            alert("Por favor, preencha todos os campos obrigatórios.");
+            return;
+          }
+
+          if (!consent) {
+            alert("É necessário manifestar concordância com os termos de tratamento de dados (LGPD).");
+            return;
+          }
+
+          btnSubmit.disabled = true;
+          btnSubmit.textContent = "Processando Envio...";
+
+          setTimeout(function () {
+            form.reset();
+            btnSubmit.disabled = false;
+            btnSubmit.textContent = "Enviar Mensagem Institucional";
+            if (alertSuccess) {
+              alertSuccess.style.display = "block";
+              alertSuccess.scrollIntoView({ behavior: "smooth" });
+            }
+          }, 600);
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
