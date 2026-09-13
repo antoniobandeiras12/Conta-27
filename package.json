@@ -1,9 +1,0 @@
-{
-  "name": "portal-institucional-vertice",
-  "version": "1.0.0",
-  "description": "Portal Institucional de Educação Financeira",
-  "scripts": {
-    "dev": "node server.js",
-    "start": "node server.js"
-  }
-}
